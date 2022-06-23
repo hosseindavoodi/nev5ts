@@ -1,26 +1,60 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
 
-function App() {
+import "./style/tailwind.output.css";
+import "./style/style.css" 
+
+type resultProps = {
+  id: number;
+  text: string;
+  textT: string;
+  description: string;
+};
+
+const App = () => {
+  const [data, setData] = useState<resultProps[]>([]);
+  const [back, setBack] = useState(0);
+  const [backtext, setBacktext] = useState(0)
+  
+
+
+
+useEffect(()=>{
+  const fetchdata = async() => {
+    const request = await fetch("./json.json");
+    const response = await request.json();
+    setData(response)
+  }
+  fetchdata()
+},[])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  
+    <>
+    {
+      data.map((val)=>(
+          <div key={val.id} className="flip reletive inset-x-0 mx-auto mt-5 text-white ">
+    <div className='card w-full h-full'>
+      {/* card front */}
+      <div className="absolute rounded-2xl pt-5 pl-8 pr-5 w-full h-full card__face front ">
+        <h2>{val.text} <br /> {val.textT}</h2>
+        <div className="open absolute"></div>
+      </div>
+      {/* card back */}
+      <div className="absolute rounded-2xl pt-5 pl-8 pr-5 w-full h-full card__face back">
+        <div className='backtextb'>
+        <h2 className="mb-5">About {val.text}</h2>
+        <p>{val.description} </p>
+        </div>
+        <div className="close absolute"></div>
+      </div>
     </div>
+  </div>
+      ))
+    }
+    </>
+
   );
-}
+};
 
 export default App;

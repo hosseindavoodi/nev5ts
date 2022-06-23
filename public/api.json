@@ -1,0 +1,123 @@
+{
+    "results": [
+        {
+        "gender": "female",
+        "name": {
+            "title": "Miss",
+            "first": "Mary",
+            "last": "Dean"
+        },
+        "location": {
+            "street": {
+                "number": 8189,
+                "name": "E Pecan St"
+            },
+            "city": "Irving",
+            "state": "New York",
+            "country": "United States",
+            "postcode": 98758,
+            "coordinates": {
+                "latitude": "84.3007",
+                "longitude": "92.8410"
+            },
+            "timezone": {
+                "offset": "+8:00",
+                "description": "Beijing, Perth, Singapore, Hong Kong"
+            }
+        },
+        "email": "mary.dean@example.com",
+        "login": {
+            "uuid": "a35dd37a-fe75-4968-9de3-b817f1971f3e",
+            "username": "brownostrich572",
+            "password": "toyota",
+            "salt": "5BwMyGe3",
+            "md5": "f8f781c15787307c1e6fc5e1665899d9",
+            "sha1": "6fa059f7d3f8b105134c2975b2327fe74c531f61",
+            "sha256": "1207dc7853df8c0588732c7a553cf0b27e39dd726cfd88a5327f6608f6f0f7e4"
+        },
+        "dob": {
+            "date": "1948-09-01T08:02:39.068Z",
+            "age": 74
+        },
+        "registered": {
+            "date": "2010-02-19T05:25:30.688Z",
+            "age": 12
+        },
+        "phone": "(154)-091-9904",
+        "cell": "(151)-866-4977",
+        "id": {
+            "name": "SSN",
+            "value": "976-10-0290"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/91.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/91.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/91.jpg"
+        },
+        "nat": "US"
+    },
+
+    {
+        "gender": "female",
+        "name": {
+            "title": "Miss",
+            "first": "Mary",
+            "last": "Dean"
+        },
+        "location": {
+            "street": {
+                "number": 8189,
+                "name": "E Pecan St"
+            },
+            "city": "Irving",
+            "state": "New York",
+            "country": "United States",
+            "postcode": 98758,
+            "coordinates": {
+                "latitude": "84.3007",
+                "longitude": "92.8410"
+            },
+            "timezone": {
+                "offset": "+8:00",
+                "description": "Beijing, Perth, Singapore, Hong Kong"
+            }
+        },
+        "email": "mary.dean@example.com",
+        "login": {
+            "uuid": "a35dd37a-fe75-4968-9de3-b817f1971f3e",
+            "username": "brownostrich572",
+            "password": "toyota",
+            "salt": "5BwMyGe3",
+            "md5": "f8f781c15787307c1e6fc5e1665899d9",
+            "sha1": "6fa059f7d3f8b105134c2975b2327fe74c531f61",
+            "sha256": "1207dc7853df8c0588732c7a553cf0b27e39dd726cfd88a5327f6608f6f0f7e4"
+        },
+        "dob": {
+            "date": "1948-09-01T08:02:39.068Z",
+            "age": 74
+        },
+        "registered": {
+            "date": "2010-02-19T05:25:30.688Z",
+            "age": 12
+        },
+        "phone": "(154)-091-9904",
+        "cell": "(151)-866-4977",
+        "id": {
+            "name": "SSN",
+            "value": "976-10-0290"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/91.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/91.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/91.jpg"
+        },
+        "nat": "US"
+    }
+],
+    "info": {
+        "seed": "963280f3ea2b33fe",
+        "results": 1,
+        "page": 1,
+        "version": "1.3"
+    }
+}
